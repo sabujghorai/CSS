@@ -7,3 +7,5 @@ Where headings should appear
 Where images should be placed
 How links work
 How forms, tables, and lists are structured
+
+"br" tag is for next line
