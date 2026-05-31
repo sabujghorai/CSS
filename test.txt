@@ -2,8 +2,3 @@ What Does an HTML File Do?
 
 An HTML file tells the browser:
 
-What text to display
-Where headings should appear
-Where images should be placed
-How links work
-How forms, tables, and lists are structured
