@@ -2,3 +2,9 @@ h1{
     color: rgb(8, 135, 246);
     text-align: center;
 }
+
+button:hover{
+    
+    background-color: red;
+    color: white;
+}
