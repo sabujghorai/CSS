@@ -2,6 +2,10 @@
     background-color: blue;
 }
 
-.heading{
+.heading{   /* This selector */
+    color: red; 
+}
+
+h1,h2,h3{       /* And this selector working same */
     color: red;
 }
