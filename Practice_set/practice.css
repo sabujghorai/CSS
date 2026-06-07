@@ -1,9 +1,14 @@
-p{
-    text-decoration: underline;
-}
-
 h2{
-    text-decoration: overline; /*line appears over the text */
-    text-decoration: line-through; /* Line appears through the line */
-    text-decoration: none; /* Line does not appear usually used in anchor tag */
+    text-decoration: red dotted underline;
+    text-decoration: red wavy underline;
+    text-decoration: red dashed underline;
+    text-decoration: red double underline;
+    text-decoration: red solid underline;
+
+
+    font-weight: lighter;
+    font-weight: bold;
+    font-weight: bolder;
+    font-weight: normal;
+
 }
