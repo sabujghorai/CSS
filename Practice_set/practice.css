@@ -1,11 +1,9 @@
-#box{
-    background-color: blue;
+p{
+    text-decoration: underline;
 }
 
-.heading{   /* This selector */
-    color: red; 
-}
-
-h1,h2,h3{       /* And this selector working same */
-    color: red;
+h2{
+    text-decoration: overline; /*line appears over the text */
+    text-decoration: line-through; /* Line appears through the line */
+    text-decoration: none; /* Line does not appear usually used in anchor tag */
 }
