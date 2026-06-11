@@ -19,4 +19,6 @@ h2{
 
 #one{
     font-size: 40px; /* Changes the font size */
+    line-height: 10px; /*over the lines because line height is too short */
+    line-height: 1; /*normalize the line */
 }
