@@ -24,3 +24,7 @@ h2{
     line-height: normal; /* Normalize the line height */
 }
 
+#two{
+    text-transform: uppercase; /* capitalize all the text */
+    
+}
