@@ -26,5 +26,8 @@ h2{
 
 #two{
     text-transform: uppercase; /* capitalize all the text */
+    text-transform: lowercase; /* change the all elements into lowercase */
+    text-transform: capitalize; /* capitalize the first letter of the text */
     
+
 }
