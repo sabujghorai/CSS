@@ -1,6 +1,45 @@
-nav ul li{
-    margin: 0;
+*{
+    margin: 3px;
     padding: 0;
-    background-color: aqua;
 }
 
+
+nav{
+    background-color:antiquewhite;
+    height: 75px;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+}
+
+nav ul{
+    align-items: right;
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+nav ul li:hover{
+    font-size: 1.3rem;
+    color: red ;
+    text-shadow: 0 0 10 rgb(255, 0, 0);
+    box-shadow: black;
+}
+
+.leftitem{
+    width: 200px;
+    text-align: left;
+}
+
+.myimage{
+    border-radius: 100px;
+    box-shadow: red;
+}
