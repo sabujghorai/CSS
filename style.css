@@ -1,16 +1,6 @@
-body{
-    background-image: url('bg.jpeg');
-    background-repeat: repeat-x;
-    background-repeat: repeat-y;
-    background-repeat: no-repeat;
-    background-repeat: space;
-} 
-
-
-.red{
-    background: #f97a7a;;
+nav ul li{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
 }
 
-.green{
-    background: #76f076;
-}
