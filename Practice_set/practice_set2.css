@@ -1,12 +1,18 @@
-
 h1{
+    height: 40px;
+    width: 168px;
+    background: rgb(214, 161, 62);
+    border-radius: 5px;
     text-align: center;
-    text-transform: capitalize;
+
 }
 
-#outer{
-    font-size: 25px;
-}
-#inner{
-    font-size: 10px;
+div {
+    height: 200px;
+    width: 300px;
+    background-color: orange;
+    border-width: 2px;
+    border-color: black;
+    border-style:double;
+    border-radius: 5px;
 }
