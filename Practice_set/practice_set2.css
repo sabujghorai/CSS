@@ -8,11 +8,16 @@ h1{
 }
 
 div {
-    height: 200px;
-    width: 300px;
+    height: 100px;
+    width: 100px;
     background-color: orange;
     border-width: 2px;
-    border-color: black;
+    /* border-color: black;
     border-style:double;
-    border-radius: 5px;
+    border-radius: 5px; */
+    border: 2px double black;
+    border-radius:  50%;
+    text-align: center;
+    
+
 }
