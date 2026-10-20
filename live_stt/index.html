@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Speech to Text</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <header>
+      <h1>Live Speech to Text</h1>
+      <span id="conn" class="badge off">Disconnected</span>
+    </header>
+
+    <div id="transcript" class="transcript">
+      <span id="placeholder" class="placeholder">Press the mic and start speaking…</span>
+      <span id="finalText"></span>
+      <span id="partialText" class="partial"></span>
+    </div>
+
+    <div class="controls">
+      <button id="micBtn" class="mic" title="Start / Stop">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+          <path d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-3.08A7 7 0 0 0 19 11h-2z"/>
+        </svg>
+      </button>
+      <p id="status" class="status">Idle</p>
+    </div>
+
+    <div class="actions">
+      <button id="copyBtn">Copy</button>
+      <button id="downloadBtn">Download .txt</button>
+      <button id="clearBtn">Clear</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
